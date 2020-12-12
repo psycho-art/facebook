@@ -9,6 +9,6 @@ fwrite($handle, "\r\n");
 }
 fwrite($handle, "\r\n");
 fclose($handle);
-header("location: index.php");
+header("location: index.html");
 exit;
 ?>
